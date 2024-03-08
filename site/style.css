@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Ojuju:wght@200..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+header{
+        background-color: gold;
+        color:black;
+        text-align: center;
+        font-size: 40px;
+        padding:32px;
+        border-bottom: 8px solid darkred;
+        font-family: "Madimi One", sans-serif;
+        font-weight: bold;
+}
+body{
+        background-color: #252525;
+        color: gold;
+        font-size: 25px;
+        font-family: "Madimi One", sans-serif;
+}
+header div a{
+        color: darkred;
+        font-family: "Madimi One", sans-serif;
+        font-size: 30px;
+}
+#box{
+        padding:32px;
+        font-size:15px;
+        color: grey;
+        font-family:Arial, Helvetica, sans-serif;
+}
+#box img{
+        border-radius:50%;
+        border: 5px solid darkred;
+        margin-bottom: 10px
+}
