@@ -19,10 +19,12 @@ body{
         color: goldenrod;
         font-size: 25px;
         font-family: "Madimi One", sans-serif;
+        text-align: center;
 }
 :root{
         --cor:goldenrod;
         --subcor: lightgrey;
+        --ultracor: darkred;
 }
 #box{
         padding:10px;
@@ -31,7 +33,7 @@ body{
 }
 #box img{
         border-radius:50%;
-        border: 5px solid darkred;
+        border: 5px solid var(--ultracor);
         margin-bottom: 10px;
 }
 #box h1{
@@ -50,12 +52,22 @@ body{
         color: var(--subcor);
 }
 .links a{
-        color: darkred;
+        color: var(--ultracor);
         font-family: "Madimi One", sans-serif;
         font-size: 30px;
         margin: 10px;
 }
 .links a:hover{
         color: #252525;
-        transition: 600ms
+        transition: 600ms;
+        font-size: 45px;
+}
+#linksfooter a{
+        color: var(--cor);
+        font-size: 20px;
+}
+#linksfooter a:hover{
+        color:var(--ultracor);
+        transition: 600ms;
+        font-size: 35px;
 }
